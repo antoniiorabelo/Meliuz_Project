@@ -79,8 +79,12 @@ if ficheiro_carregado is not None:
             alavancagem_vencedor = float(df_agrupado.iloc[0]['alavancagem_gmv'])
             ticket_vencedor = float(df_agrupado.iloc[0]['ticket_medio'])
 
+            # Pega a data de hoje
+            data_hoje_texto = datetime.now().strftime("%d/%m/%Y")
+
             prompt = f"""
             Você é um Analista de Growth Sênior IA na Méliuz. 
+            Data de hoje: {data_hoje_texto}. Comece o relatório informando esta data.
             Acabamos de rodar um Teste A/B de variação de cashback com o parceiro {parceiro_nome}.
             [DADOS CONSOLIDADOS DO TESTE]
             {dados_em_texto}
