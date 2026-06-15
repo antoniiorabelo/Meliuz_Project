@@ -136,3 +136,4 @@ Como case técnico para a vaga de **Estágio em Growth AI-Native da Méliuz**.
 
 ---
 ## Vídeo do sistema
+> **https://youtu.be/TO9uYB63QT8**
