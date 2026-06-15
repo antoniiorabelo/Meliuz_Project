@@ -29,7 +29,7 @@ Siga os passos abaixo para testar a aplicação na sua máquina.
 ### 1. Clonar o Repositório e Instalar Dependências
 ```bash
 # Clone este repositório
-git clone [https://github.com/SEU_USUARIO/teste-meliuz-growth.git](https://github.com/SEU_USUARIO/teste-meliuz-growth.git)
+git clone https://github.com/antoniiorabelo/Meliuz_Project.git
 cd teste-meliuz-growth
 
 # Crie e ative um ambiente virtual (Recomendado)
