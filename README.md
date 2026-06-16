@@ -118,12 +118,15 @@ O estado da sessão está protegido e o seu progresso não será perdido.
 # 📂 Estrutura do Projeto
 
 ```plaintext
-├── teste-meliuz-growth/       # Pasta com os datasets brutos do case (Parceiros A, B e C)
-├── .env.example              # Template de variáveis de ambiente
-├── .gitignore                # Exclusão de ficheiros sensíveis e cache
-├── app.py                    # Código fonte principal do Web App (Streamlit + Agente IA)
-├── README.md                 # Documentação do projeto
-└── requirements.txt          # Dependências limpas (Pandas, Streamlit, Google GenAI, etc.)
+├── teste-meliuz-growth/       # Pasta com os datasets brutos do case (CSVs Parceiros A, B e C)
+├── Relatorio_dos_Teste/       # Diretório contendo os relatórios executivos finais gerados (.md)
+├── .env.example               # Template estrutural de variáveis de ambiente
+├── .gitignore                 # Regras de exclusão de arquivos sensíveis e caches
+├── analisador.py              # Versão CLI (Linha de Comando) para automação em servidores
+├── app.py                     # Código fonte principal do Web App (Interface + Agente IA)
+├── README.md                  # Documentação principal e instruções de uso do projeto
+├── requirements.txt           # Mapeamento de dependências limpas (Pandas, Streamlit, etc.)
+└── testar.py                  # Script auxiliar para testes unitários e validação de funções
 ```
 
 ---
